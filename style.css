@@ -1,0 +1,78 @@
+* {
+    background-color: skyblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.stage {
+    text-align: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+@font-face {
+    font-family: Outra fonte;
+    src: url(./../../../Font/GreyQo-Regular.ttf);
+}
+
+.o {
+    position: relative;
+}
+
+.o:after {
+    position: absolute;
+    content: "O";
+    font-family: Outra fonte, cursive;
+    font-size: 80px;
+    line-height: 100px;
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+}
+
+.x {
+    position: relative;
+}
+
+.x:after {
+    position: absolute;
+    content: "X";
+    font-family: Outra fonte, cursive;
+    font-size: 80px;
+    line-height: 100px;
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+}
+
+.controls {
+    text-align: center;
+    padding: 15px;
+}
+
+.btn {
+    background: white;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.players {
+    display: flex;
+    justify-content: space-around;
+}
